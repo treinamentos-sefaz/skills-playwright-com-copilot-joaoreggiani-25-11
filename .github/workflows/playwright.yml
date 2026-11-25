@@ -13,7 +13,7 @@ jobs:
     name: Playwright tests
     runs-on: ubuntu-latest
     container:
-      image: mcr.microsoft.com/playwright:v1.49.0-noble
+      image: mcr.microsoft.com/playwright:v1.65.1-noble
 
     steps:
       - name: Checkout
